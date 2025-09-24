@@ -1,6 +1,6 @@
 
 /* Your CSS Code here. */
- .player-wrapper {
+ .player_video {
             position: relative;
             max-width: 800px;
             margin: 20px auto;
@@ -15,8 +15,8 @@
             color: white;
             padding: 10px;
         }
-        .player-controls button,
-        .player-controls input {
+        .rewind button,
+        .skip-forward input {
             cursor: pointer;
             margin: 0 5px;
         }
