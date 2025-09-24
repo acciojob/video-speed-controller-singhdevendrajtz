@@ -1,6 +1,6 @@
 
 /* Your CSS Code here. */
- .player_video {
+ .player__video{
             position: relative;
             max-width: 800px;
             margin: 20px auto;
