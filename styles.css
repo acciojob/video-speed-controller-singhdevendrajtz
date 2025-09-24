@@ -1,32 +1,19 @@
 
 /* Your CSS Code here. */
- .player__video{
-            position: relative;
-            max-width: 800px;
-            margin: 20px auto;
-            border: 2px solid black;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-        }
-        .player-controls {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            background: rgba(0, 0, 0, 0.7);
-            color: white;
-            padding: 10px;
-        }
-        .rewind button,
-        .skip-forward input {
-            cursor: pointer;
-            margin: 0 5px;
-        }
-        .progress {
-            height: 10px;
-            background: rgba(255, 255, 255, 0.3);
-            cursor: pointer;
-        }
-        .progress__filled {
-            width: 0%;
-            height: 100%;
-            background: #ffc600;
-        }
+.progress {
+  background: #ccc;
+  height: 10px;
+  width: 100%;
+  margin-top: 10px;
+  position: relative;
+}
+.progress__filled {
+  background: #f66;
+  height: 100%;    
+  width: 0%;       
+  transition: width 0.2s;
+}
+
+body{
+	height:100vh;
+}
